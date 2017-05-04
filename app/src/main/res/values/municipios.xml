@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="municipios">
+        <item>Amatitlán</item>
+        <item>Chinautla</item>
+        <item>Chuarrancho</item>
+        <item>Guatemala</item>
+        <item>Fraijanes</item>
+        <item>Mixco</item>
+        <item>Palencia</item>
+        <item>San José Pinula</item>
+        <item>San José del Golfo</item>
+        <item>San Juan Sacatepéquez</item>
+        <item>San Miguel Petapa</item>
+        <item>San Pedro Ayampuc</item>
+        <item>San Pedro Sacatepéquez</item>
+        <item>San Raymundo</item>
+        <item>Santa Catarina Pinula</item>
+        <item>Villa Canales</item>
+        <item>Villa Nueva</item>
+    </string-array>
+</resources>

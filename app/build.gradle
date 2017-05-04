@@ -21,4 +21,6 @@ android {
 dependencies {
     compile 'com.android.support:support-v4:19.1.0'
     compile 'com.ibm.watson.developer_cloud:java-sdk:3.7.2'
+    compile 'com.android.support:appcompat-v7:19.1.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-beta5'
 }
