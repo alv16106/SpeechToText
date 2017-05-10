@@ -9,9 +9,9 @@
         android:id="@+id/txtSpeechInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_above="@+id/btnSpeak"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginBottom="12dp"
         android:textColor="@color/white"
         android:textSize="26dp"
         android:textStyle="normal" />
@@ -23,23 +23,242 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="60dp"
         android:gravity="center"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
 
-        <ImageButton
-            android:id="@+id/btnSpeak"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@null"
-            android:src="@drawable/ico_mic" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/tap_on_mic"
-            android:textColor="@color/white"
-            android:textSize="15dp"
-            android:textStyle="normal" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="34dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="Información del paciente"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido:"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Edad:"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="20dp"
+        android:text="Sexo:"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Municpio:"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Zona:"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="Tipo de Consulta"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_below="@+id/textView7"
+        android:layout_toLeftOf="@+id/txtSpeechInput"
+        android:layout_toStartOf="@+id/txtSpeechInput" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="@string/tap_on_mic"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4" />
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="76dp"
+        android:layout_height="71dp"
+        android:background="@null"
+        android:src="@drawable/ico_mic"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nueva"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:layout_alignBaseline="@+id/textView10"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_toRightOf="@+id/textView10"
+        android:layout_toEndOf="@+id/textView10" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ReConsulta"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/radioButton"
+        android:layout_toRightOf="@+id/radioButton"
+        android:layout_toEndOf="@+id/radioButton" />
+
+    <EditText
+        android:id="@+id/municipio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignLeft="@+id/zona"
+        android:layout_alignStart="@+id/zona"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/zona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignLeft="@+id/apellido"
+        android:layout_alignStart="@+id/apellido"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/apellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nombre"
+        android:layout_alignStart="@+id/nombre"
+        android:layout_alignTop="@+id/textView4"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/btnSpeak"
+        android:layout_alignStart="@+id/btnSpeak"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignLeft="@+id/apellido"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignStart="@+id/apellido"
+        android:layout_alignTop="@+id/textView5"
+        android:ems="10"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignLeft="@+id/zona"
+        android:layout_alignStart="@+id/zona"
+        android:text="Masculino" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/checkBox"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:text="Femenino" />
 
 </RelativeLayout>

@@ -1,8 +1,5 @@
 package info.androidhive.speechtotext;
 
-import java.util.ArrayList;
-import java.util.Locale;
-
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -11,23 +8,24 @@ import android.os.Bundle;
 import android.speech.RecognizerIntent;
 import android.view.Menu;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonArray;
 import com.google.gson.JsonParser;
 import com.ibm.watson.developer_cloud.natural_language_understanding.v1.NaturalLanguageUnderstanding;
 import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.AnalysisResults;
 import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.AnalyzeOptions;
 import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.EntitiesOptions;
 import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.Features;
-import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.KeywordsOptions;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Locale;
 
 public class MainActivity extends Activity {
 	ArrayList<String> result;
@@ -37,6 +35,11 @@ public class MainActivity extends Activity {
 			"Xqo4KfXFnutA"
 	);
 	JsonParser par = new JsonParser();
+	private EditText nombre;
+	private EditText apellido;
+	private EditText zona;
+	private EditText municipio;
+	private EditText edad;
 	private TextView txtSpeechInput;
 	private ImageButton btnSpeak;
 	private final int REQ_CODE_SPEECH_INPUT = 100;
@@ -47,6 +50,11 @@ public class MainActivity extends Activity {
 
 		setContentView(R.layout.activity_main);
 
+		nombre = (EditText) findViewById(R.id.nombre);
+		apellido = (EditText)findViewById(R.id.apellido);
+		zona = (EditText)findViewById(R.id.zona);
+		municipio = (EditText)findViewById(R.id.municipio);
+		edad = (EditText)findViewById(R.id.edad);
 		txtSpeechInput = (TextView) findViewById(R.id.txtSpeechInput);
 		btnSpeak = (ImageButton) findViewById(R.id.btnSpeak);
 		btnSpeak.setOnClickListener(new View.OnClickListener() {

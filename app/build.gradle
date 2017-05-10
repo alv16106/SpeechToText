@@ -8,6 +8,7 @@ android {
         applicationId "info.androidhive.speechtotext"
         minSdkVersion 11
         targetSdkVersion 19
+        vectorDrawables.useSupportLibrary = true
     }
 
     buildTypes {
@@ -21,4 +22,6 @@ android {
 dependencies {
     compile 'com.android.support:support-v4:19.1.0'
     compile 'com.ibm.watson.developer_cloud:java-sdk:3.7.2'
+    compile 'com.android.support:design:19.+'
+    compile 'com.android.support:support-vector-drawable:19.+'
 }
