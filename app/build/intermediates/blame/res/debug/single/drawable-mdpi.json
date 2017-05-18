@@ -1,13 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\Carlos\\Desktop\\aosdk\\SpeechToText\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Carlos\\Desktop\\aosdk\\SpeechToText\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Carlos\\Desktop\\aosdk\\SpeechToText\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ico_mic.png",
-        "source": "C:\\Users\\Carlos\\Desktop\\aosdk\\SpeechToText\\app\\src\\main\\res\\drawable-mdpi\\ico_mic.png"
-    },
-    {
         "merged": "C:\\Users\\rodrigo\\AndroidStudioProjects\\SpeechToText\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
         "source": "C:\\Users\\rodrigo\\AndroidStudioProjects\\SpeechToText\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },

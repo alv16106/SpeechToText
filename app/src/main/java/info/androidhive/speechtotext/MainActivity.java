@@ -1,45 +1,50 @@
 package info.androidhive.speechtotext;
 
+import java.util.ArrayList;
+import java.util.Locale;
+
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.speech.RecognizerIntent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
 import com.google.gson.JsonParser;
 import com.ibm.watson.developer_cloud.natural_language_understanding.v1.NaturalLanguageUnderstanding;
 import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.AnalysisResults;
 import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.AnalyzeOptions;
 import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.EntitiesOptions;
 import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.Features;
+import com.ibm.watson.developer_cloud.natural_language_understanding.v1.model.KeywordsOptions;
 
+import com.loopj.android.http.AsyncHttpClient;
+import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.loopj.android.http.JsonHttpResponseHandler;
+import com.loopj.android.http.RequestParams;
+
+import org.apache.http.Header;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.util.ArrayList;
-import java.util.Locale;
 
 public class MainActivity extends Activity {
 	ArrayList<String> result;
 	NaturalLanguageUnderstanding service = new NaturalLanguageUnderstanding(
 			NaturalLanguageUnderstanding.VERSION_DATE_2017_02_27,
-			"e47f7720-a590-4c09-a8bd-b4d8f1edc7e7",
-			"Xqo4KfXFnutA"
+			"1ad5a84e-1ed0-49fc-890f-a5c4f12974cf",
+			"bwv3iKnXyA70"
 	);
 	JsonParser par = new JsonParser();
-	private EditText nombre;
-	private EditText apellido;
-	private EditText zona;
-	private EditText municipio;
-	private EditText edad;
 	private TextView txtSpeechInput;
 	private ImageButton btnSpeak;
 	private final int REQ_CODE_SPEECH_INPUT = 100;
@@ -50,11 +55,6 @@ public class MainActivity extends Activity {
 
 		setContentView(R.layout.activity_main);
 
-		nombre = (EditText) findViewById(R.id.nombre);
-		apellido = (EditText)findViewById(R.id.apellido);
-		zona = (EditText)findViewById(R.id.zona);
-		municipio = (EditText)findViewById(R.id.municipio);
-		edad = (EditText)findViewById(R.id.edad);
 		txtSpeechInput = (TextView) findViewById(R.id.txtSpeechInput);
 		btnSpeak = (ImageButton) findViewById(R.id.btnSpeak);
 		btnSpeak.setOnClickListener(new View.OnClickListener() {
@@ -77,7 +77,7 @@ public class MainActivity extends Activity {
         protected String doInBackground(Void... params) {
             //Autenticacion de Watson:
             service.setEndPoint("https://gateway.watsonplatform.net/natural-language-understanding/api");
-            EntitiesOptions entities = new EntitiesOptions.Builder().sentiment(true).limit(1).model("20:cb17bd1e-76ba-45c5-8482-f73646aec596").build();
+            EntitiesOptions entities = new EntitiesOptions.Builder().sentiment(true).limit(1).model("20:9efd7e53-adf6-4096-8d2d-e49db93c2cb1").build();
             Features features = new Features.Builder().entities(entities).build();
             AnalyzeOptions parameters = new AnalyzeOptions.Builder().text(result.get(0)).features(features).build();
             AnalysisResults results = service.analyze(parameters).execute();
@@ -97,7 +97,7 @@ public class MainActivity extends Activity {
 						resultadosFinales = resultadosFinales+", " + consulta.getJSONObject(i).getString("text");
 					}
 				}
-				return x;
+				return resultadosFinales;
 			} catch (JSONException e) {
 				e.printStackTrace();
 				return null;
@@ -106,8 +106,30 @@ public class MainActivity extends Activity {
         }
 
         @Override
-        protected void onPostExecute(String s) {
+        protected void onPostExecute(String s)
+		{
             txtSpeechInput.setText("El diagnostico es: "+s);
+			AsyncHttpClient client = new AsyncHttpClient();
+			RequestParams params = new RequestParams();
+
+			params.put("diagnostico", s);
+			client.get("http://uvgproyectos.esaludgt.org/web/Api/Codigos?", params, new JsonHttpResponseHandler(){
+                @Override
+                public void onSuccess(int statusCode, cz.msebera.android.httpclient.Header[] headers, JSONObject responseBody) {
+                    JSONObject jsonobject = null;
+					txtSpeechInput.setText(responseBody.toString());
+                    try {
+                        jsonobject = responseBody;
+                        String key = jsonobject.getString("Key");
+                        String name = jsonobject.getString("Value");
+                        txtSpeechInput.setText(name + ": " + key);
+
+                    }catch(JSONException e){
+                        txtSpeechInput.setText("Error fatal");
+                    }
+                }
+
+            });
         }
     }
 	private void promptSpeechInput() {

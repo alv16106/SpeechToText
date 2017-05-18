@@ -2,247 +2,247 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\dialog\3.7.2\335ba605adba1ba2cf74deabb4d7bb229cded4cb\dialog-3.7.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="335ba605adba1ba2cf74deabb4d7bb229cded4cb">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\dialog-3.7.2_15f19388e772e675dce0e67e12e289f5501b6873\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\language-translation\3.7.2\f1a24bd8f2ecd8f715d7051a2c41d43e066d3304\language-translation-3.7.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f1a24bd8f2ecd8f715d7051a2c41d43e066d3304">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\language-translation-3.7.2_cecc7d4bd7fa48d142313cb6ce6b3a3167517456\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\natural-language-understanding\3.7.2\2c5baaba6c4cd267c5a5d9d6163bb42ce57d330c\natural-language-understanding-3.7.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2c5baaba6c4cd267c5a5d9d6163bb42ce57d330c">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\natural-language-understanding-3.7.2_0cead4d09cf9c39556ada490ad00c2ece6c667ed\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\text-to-speech\3.7.2\4c6bbdee5bf520452faa41592e2f81c693f29c75\text-to-speech-3.7.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4c6bbdee5bf520452faa41592e2f81c693f29c75">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\text-to-speech-3.7.2_20e12de4a80b2adc3b2ee90c72f803e6d5122aa5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_c77db1fbfbe8690f0f81224f51a50817ec07e5aa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\conversation\3.7.2\7c6fe10a30be19b07f0937409b9ab433345a2fbc\conversation-3.7.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7c6fe10a30be19b07f0937409b9ab433345a2fbc">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\conversation-3.7.2_455819ad3dba3d78853096e8a30bfcca9a72b124\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\core\3.7.2\d9b33430f8201d39b45d95cc775f7cd29a08bdbd\core-3.7.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d9b33430f8201d39b45d95cc775f7cd29a08bdbd">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.7.2_38b47bfbfaa594e8b641903ddc0886c0a785d777\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\natural-language-classifier\3.7.2\324235c8c6ffeb6d60f82c2975b74de8bb1cee46\natural-language-classifier-3.7.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="324235c8c6ffeb6d60f82c2975b74de8bb1cee46">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\natural-language-classifier-3.7.2_4f9d64947ac62052b25162e6fb278e46e5b87af4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.6.0\81887458b69ddc32722df7e4c35235fd74e6a8ba\logging-interceptor-3.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="81887458b69ddc32722df7e4c35235fd74e6a8ba">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.6.0_fccb477f0f589ccfe2f27fa026acc204613276f8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\speech-to-text\3.7.2\f14dbfcb1a8f2df1c0498088c726c8d6d899ad94\speech-to-text-3.7.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f14dbfcb1a8f2df1c0498088c726c8d6d899ad94">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\speech-to-text-3.7.2_bd746562e286299ec6716d827b5212ef6f00254c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\document-conversion\3.7.2\38d3ad7e58c750e224cd0bc931b6842f37d8283c\document-conversion-3.7.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="38d3ad7e58c750e224cd0bc931b6842f37d8283c">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\document-conversion-3.7.2_ed6a0f092bd39659abd1c44242d41be3830aa5a8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.4\5fe28b9518e58819180a43a850fbc0dd24b7c050\commons-lang3-3.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-lang3-3.4_364719c44ce7b9aabbd2198183a1a22a238735fb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\alchemy\3.7.2\7481d9643ac632b02bf48bbe6e58812496d6914c\alchemy-3.7.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7481d9643ac632b02bf48bbe6e58812496d6914c">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\alchemy-3.7.2_fc80cafa0be61d8d5efebf43fffff161cf58f7e0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.11.0_51e0d28a42e9054ea5190e437a37c3ae649ede63\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\org.glassfish.jersey.bundles.repackaged\jersey-jsr166e\2.22.2\3ef9c67a5bea4d914a45bd54f3405fa29a368f7a\jersey-jsr166e-2.22.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3ef9c67a5bea4d914a45bd54f3405fa29a368f7a">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\jersey-jsr166e-2.22.2_46a96679a96cfcd9c29b43db40de4ffc312a25b3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\tradeoff-analytics\3.7.2\b580d7ac3fb7c1f70438f16d43b576a72b7ff2a3\tradeoff-analytics-3.7.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b580d7ac3fb7c1f70438f16d43b576a72b7ff2a3">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\tradeoff-analytics-3.7.2_01e6b6bfd763a4cab7f021eeabc4dafec546e9f6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\discovery\3.7.2\821e4d4116eb51dd494fb0e2d4c5621040c188b\discovery-3.7.2.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="0821e4d4116eb51dd494fb0e2d4c5621040c188b">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\discovery-3.7.2_4fd562095dede33da42268f69d9d6c2909d954b5\classes.dex" />
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\discovery-3.7.2_4fd562095dede33da42268f69d9d6c2909d954b5.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\tradeoff-analytics\3.7.2\b580d7ac3fb7c1f70438f16d43b576a72b7ff2a3\tradeoff-analytics-3.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b580d7ac3fb7c1f70438f16d43b576a72b7ff2a3">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\tradeoff-analytics-3.7.2_01e6b6bfd763a4cab7f021eeabc4dafec546e9f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\dialog\3.7.2\335ba605adba1ba2cf74deabb4d7bb229cded4cb\dialog-3.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="335ba605adba1ba2cf74deabb4d7bb229cded4cb">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\dialog-3.7.2_15f19388e772e675dce0e67e12e289f5501b6873.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\conversation\3.7.2\7c6fe10a30be19b07f0937409b9ab433345a2fbc\conversation-3.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7c6fe10a30be19b07f0937409b9ab433345a2fbc">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\conversation-3.7.2_455819ad3dba3d78853096e8a30bfcca9a72b124.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\gson-2.8.0_c77db1fbfbe8690f0f81224f51a50817ec07e5aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\natural-language-understanding\3.7.2\2c5baaba6c4cd267c5a5d9d6163bb42ce57d330c\natural-language-understanding-3.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c5baaba6c4cd267c5a5d9d6163bb42ce57d330c">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\natural-language-understanding-3.7.2_0cead4d09cf9c39556ada490ad00c2ece6c667ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\text-to-speech\3.7.2\4c6bbdee5bf520452faa41592e2f81c693f29c75\text-to-speech-3.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c6bbdee5bf520452faa41592e2f81c693f29c75">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\text-to-speech-3.7.2_20e12de4a80b2adc3b2ee90c72f803e6d5122aa5.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\language-translator\3.7.2\829aef41187f84c851b2f027d19d19577afc4516\language-translator-3.7.2.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="829aef41187f84c851b2f027d19d19577afc4516">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\language-translator-3.7.2_7bb14c097b50777b6fed94be662a755eeda4937c\classes.dex" />
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\language-translator-3.7.2_7bb14c097b50777b6fed94be662a755eeda4937c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_445978f8d24a21d92f7fd876407f127ec441b27b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.6.0_7630e8320a614361a9e6eceea5c6f9e18acf4cdc\classes.dex" />
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_7630e8320a614361a9e6eceea5c6f9e18acf4cdc.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\rodrigo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="3d19b7f0cb666401798578395cc551646a9c9712">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a88e5d00b0ae420ce05b4f906145c311c84caf65\classes.dex" />
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_445978f8d24a21d92f7fd876407f127ec441b27b.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\language-translation\3.7.2\f1a24bd8f2ecd8f715d7051a2c41d43e066d3304\language-translation-3.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f1a24bd8f2ecd8f715d7051a2c41d43e066d3304">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\language-translation-3.7.2_cecc7d4bd7fa48d142313cb6ce6b3a3167517456.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\httpclient-4.3.6_2650b1d6f3fc5acd0e3d2de149acc4b2a5d8cb32.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\visual-recognition\3.7.2\c13fcf61ba3cf856071033099ac5a1dd80899a12\visual-recognition-3.7.2.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="c13fcf61ba3cf856071033099ac5a1dd80899a12">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\visual-recognition-3.7.2_30ea3cf04ad340dc188b32710d04a4d6bf6bb5e0\classes.dex" />
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\visual-recognition-3.7.2_30ea3cf04ad340dc188b32710d04a4d6bf6bb5e0.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-urlconnection-3.6.0_44846b11c8a9b199a2e9da84d55d677b5a1f47b4\classes.dex" />
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_44846b11c8a9b199a2e9da84d55d677b5a1f47b4.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\retrieve-and-rank\3.7.2\4cf1b4bb4d8bee301e44322237b08b7c4e664744\retrieve-and-rank-3.7.2.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\natural-language-classifier\3.7.2\324235c8c6ffeb6d60f82c2975b74de8bb1cee46\natural-language-classifier-3.7.2.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="4cf1b4bb4d8bee301e44322237b08b7c4e664744">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrieve-and-rank-3.7.2_c85614802d71d1e3abe4c62edbbf548bf91a329a\classes.dex" />
+        sha1="324235c8c6ffeb6d60f82c2975b74de8bb1cee46">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\natural-language-classifier-3.7.2_4f9d64947ac62052b25162e6fb278e46e5b87af4.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.6.0\81887458b69ddc32722df7e4c35235fd74e6a8ba\logging-interceptor-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81887458b69ddc32722df7e4c35235fd74e6a8ba">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\logging-interceptor-3.6.0_fccb477f0f589ccfe2f27fa026acc204613276f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\core\3.7.2\d9b33430f8201d39b45d95cc775f7cd29a08bdbd\core-3.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d9b33430f8201d39b45d95cc775f7cd29a08bdbd">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\core-3.7.2_38b47bfbfaa594e8b641903ddc0886c0a785d777.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\tone-analyzer\3.7.2\48f9bd5ee76eab7fe288afb45c35b30317762de4\tone-analyzer-3.7.2.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="48f9bd5ee76eab7fe288afb45c35b30317762de4">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\tone-analyzer-3.7.2_f36cc32db1e3006536bc973ea8098c9acee75316\classes.dex" />
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\tone-analyzer-3.7.2_f36cc32db1e3006536bc973ea8098c9acee75316.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\retrieve-and-rank\3.7.2\4cf1b4bb4d8bee301e44322237b08b7c4e664744\retrieve-and-rank-3.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4cf1b4bb4d8bee301e44322237b08b7c4e664744">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\retrieve-and-rank-3.7.2_c85614802d71d1e3abe4c62edbbf548bf91a329a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.9_1fa42f194f6103d93128c411e9ce9f93553f5f05.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\personality-insights\3.7.2\2e0dc9a0264b53f94f737b251d354b8390e5da82\personality-insights-3.7.2.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="2e0dc9a0264b53f94f737b251d354b8390e5da82">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\personality-insights-3.7.2_545387b912bc74aaa1508eb3e3e10216a12392b6\classes.dex" />
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\personality-insights-3.7.2_545387b912bc74aaa1508eb3e3e10216a12392b6.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\alchemy\3.7.2\7481d9643ac632b02bf48bbe6e58812496d6914c\alchemy-3.7.2.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="a02ac272f4c3836d2aae4a279d4dca260b8f83fa">
-        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_43c67e6914095bc1fde86d4f218443d532c372fc\classes.dex" />
+        sha1="7481d9643ac632b02bf48bbe6e58812496d6914c">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\alchemy-3.7.2_fc80cafa0be61d8d5efebf43fffff161cf58f7e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\okio-1.11.0_51e0d28a42e9054ea5190e437a37c3ae649ede63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\document-conversion\3.7.2\38d3ad7e58c750e224cd0bc931b6842f37d8283c\document-conversion-3.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38d3ad7e58c750e224cd0bc931b6842f37d8283c">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\document-conversion-3.7.2_ed6a0f092bd39659abd1c44242d41be3830aa5a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.4\5fe28b9518e58819180a43a850fbc0dd24b7c050\commons-lang3-3.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\commons-lang3-3.4_364719c44ce7b9aabbd2198183a1a22a238735fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\org.glassfish.jersey.bundles.repackaged\jersey-jsr166e\2.22.2\3ef9c67a5bea4d914a45bd54f3405fa29a368f7a\jersey-jsr166e-2.22.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3ef9c67a5bea4d914a45bd54f3405fa29a368f7a">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\jersey-jsr166e-2.22.2_46a96679a96cfcd9c29b43db40de4ffc312a25b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rodrigo\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\speech-to-text\3.7.2\f14dbfcb1a8f2df1c0498088c726c8d6d899ad94\speech-to-text-3.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f14dbfcb1a8f2df1c0498088c726c8d6d899ad94">
+        <dex dex="C:\Users\rodrigo\AndroidStudioProjects\SpeechToText\app\build\intermediates\pre-dexed\debug\speech-to-text-3.7.2_bd746562e286299ec6716d827b5212ef6f00254c.jar" />
     </item>
 
 </items>

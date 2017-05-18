@@ -1,7 +1,4 @@
-#Wed May 03 18:23:18 CST 2017
-base.0=C\:\\Users\\rodrigo\\AndroidStudioProjects\\SpeechToText\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a88e5d00b0ae420ce05b4f906145c311c84caf65
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\rodrigo\\AndroidStudioProjects\\SpeechToText\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_43c67e6914095bc1fde86d4f218443d532c372fc\\classes.dex
-base.1=C\:\\Users\\rodrigo\\AndroidStudioProjects\\SpeechToText\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_43c67e6914095bc1fde86d4f218443d532c372fc
-file.0=C\:\\Users\\rodrigo\\AndroidStudioProjects\\SpeechToText\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a88e5d00b0ae420ce05b4f906145c311c84caf65\\classes.dex
+#Thu May 18 11:39:43 CST 2017
+base.0=C\:\\Users\\rodrigo\\AndroidStudioProjects\\SpeechToText\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\rodrigo\\AndroidStudioProjects\\SpeechToText\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
